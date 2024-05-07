@@ -38,10 +38,19 @@ Text Analysis of SEC 10-K Fillings using Llama 3 8b-Chat (from together.ai) for 
     detailed graphs quickly. 
 
 ## Instructions on how to run the file:
-    1. The app is deployed on web server. Please click on this link to access the web-app. Also, do note that the web-app might 
-    take few seconds (30-40 sec) of delay when loading up for the first time. 
+    1. The app is deployed on web server. Please click on this link - https://sec10-k-fillings-analysis.streamlit.app/ to access 
+    the web-app. Also, do note that the web-app might take few seconds (30-40 sec) of delay when loading up for the first time. 
+    Also, the computations on web-app takes more time as compared to local because of the constraints of the server. This web- 
+    app might face issues while loading up since its using a free service and has constraints on memory usage and timeout. 
+    Hence, a recording of the app has also been attached in the repo. 
 
-    2. When running from terminal, please execute (where the project folder is located) - streamlit run app.py
+    2. When running from terminal (on local), please execute command (where the project folder is located) - streamlit run 
+    app.py
+
+    3. Note, the fillings are already a part of the project since the app is deployed on server and having the fillings helps in 
+    avoiding potential delays (since its a free server with constraints on memory and delays). A script is already written to 
+    download these files automatically. In app.py inside main() function line 152, the lines are commented. Can uncomment to 
+    download the fillings before the execution.
 
 
 Please do note that, that computations for Debt to Equity ratio analysis and Sentiment analysis might take some time as 

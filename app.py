@@ -7,6 +7,8 @@ import plotly.express as px
 import numpy as np
 import re
 import time
+from sec_fillings_download import Download_Fillings
+
 
 #Initializing session state for tracking analysis stages
 if 'dte_analyzed' not in st.session_state:
@@ -146,9 +148,16 @@ def create_llm_responses_yearwise(company,passage_texts):
 
 def main():
     #Streamlit page setup
+
+    #Downloading the sec-edgar fillings, not used currently since the app is already hosted on web server to avoid major delays.
+    """company_tickers = ["MSFT","TSLA"]
+    sec_10k = Download_Fillings(company_tickers)
+    sec_10k.download_10k_filings()"""
+
     st.title('SEC 10-K Fillings Analysis')
 
     st.header("Debt to Equity Ratio Analysis")
+
 
     #Let user choose the company
     company = st.selectbox('Choose the company:', ['Tesla', 'Microsoft'])
@@ -187,7 +196,7 @@ def main():
 
             #Extract competition passages from the fillings and aggregate them yearwise
             passage_texts = create_passages_for_sentiment_score(company,directory)
-            
+
             #Generating LLM Responses
             llm_responses, sentiment_scores = create_llm_responses_yearwise(company,passage_texts)
 
