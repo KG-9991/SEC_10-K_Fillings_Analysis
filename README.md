@@ -42,8 +42,7 @@ Text Analysis of SEC 10-K Fillings using Llama 3 8b-Chat (from together.ai) for 
     https://sec10-k-fillings-analysis-kg.streamlit.app/ 
     
     to access the web-app. Also, do note that the web-app might take few seconds (30-40 sec) of delay when loading up for the 
-    first time. **Also, the computations on web-app takes more time as compared to local because of the constraints of the 
-    server**. This web- app might face issues while loading up since its using a free service and has constraints on memory
+    first time. This web- app might face issues while loading up since its using a free service and has constraints on memory
     usage and timeout. Hence, a recording of the app has also been attached in the repo. 
 
     2. When running from terminal (on local), please execute command (where the project folder is located) - streamlit run 
@@ -57,7 +56,7 @@ Text Analysis of SEC 10-K Fillings using Llama 3 8b-Chat (from together.ai) for 
 
 Please do note that, that computations for Debt to Equity ratio analysis and Sentiment analysis might take some time as 
 well because the data is huge and process is made to sleep in between while making API calls because of the Rate limiter    
-issue of the API (together.ai).
+issue of the API (together.ai). Also, there constraints on the server (since its a basic and free one), hence computations on server takes more time as compared to the local machine.
 
 Please note that multiple runs of sentiment analysis might predict different scores and these scores shouldn't be  
 treated as baseline facts. They are used as supplemental information to gain better insights from the data.
