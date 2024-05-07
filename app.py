@@ -7,7 +7,7 @@ import plotly.express as px
 import numpy as np
 import re
 import time
-from sec_fillings_download import Download_Fillings
+#from sec_fillings_download import Download_Fillings
 
 
 #Initializing session state for tracking analysis stages
