@@ -1,7 +1,7 @@
 # SEC 10-K Fillings Analysis
 Text Analysis of SEC 10-K Fillings using Llama 3 8b-Chat (from together.ai) for Tesla and Microsoft
 
-## Analysis was conducted on two main insights - 1. Debt to Equity Ratio and 2. Analysis of tone of the company for the competitors
+## Analysis was conducted on two main insights - 1. Debt to Equity Ratio and 2. Analysis of tone of the company for the competitors.
 
 ## 1. Debt to Equity Ratio:
     What is Debt to Equity Ratio?
@@ -39,6 +39,7 @@ Text Analysis of SEC 10-K Fillings using Llama 3 8b-Chat (from together.ai) for 
 
 ## Instructions on how to run the file:
     1. The app is deployed on web server. Please click on this link -
+    
     https://sec10-k-fillings-analysis-kg.streamlit.app/ 
     
     to access the web-app. Also, do note that the web-app might take few seconds (30-40 sec) of delay when loading up for the 
