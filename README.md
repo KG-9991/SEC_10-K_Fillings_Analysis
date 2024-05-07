@@ -42,9 +42,9 @@ Text Analysis of SEC 10-K Fillings using Llama 3 8b-Chat (from together.ai) for 
     https://sec10-k-fillings-analysis-kg.streamlit.app/ 
     
     to access the web-app. Also, do note that the web-app might take few seconds (30-40 sec) of delay when loading up for the 
-    first time. Also, the computations on web-app takes more time as compared to local because of the constraints of the 
-    server. This web- app might face issues while loading up since its using a free service and has constraints on memory usage 
-    and timeout. Hence, a recording of the app has also been attached in the repo. 
+    first time. **Also, the computations on web-app takes more time as compared to local because of the constraints of the 
+    server**. This web- app might face issues while loading up since its using a free service and has constraints on memory
+    usage and timeout. Hence, a recording of the app has also been attached in the repo. 
 
     2. When running from terminal (on local), please execute command (where the project folder is located) - streamlit run 
     app.py
