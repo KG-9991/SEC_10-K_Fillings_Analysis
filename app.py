@@ -89,6 +89,7 @@ def perform_analysis_for_dte(company,directory):
         file_path = f'{directory}/{sub_dir}/full-submission.txt'
         liab_and_equity = Extract_Debt_To_Equity(company, file_path,year)   #Creaing an object from Extract_Debt_To_Equity class to fetch dte ratios
         if company == "Tesla":
+            year = str(int(year)-1)
             dte_vals[year] = liab_and_equity.extract_dte_ratio_for_tesla()
         elif company == "Microsoft":
             dte_vals[year] = liab_and_equity.extract_debt_to_equity_ratio_for_msft()

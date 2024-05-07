@@ -18,6 +18,11 @@ Text Analysis of SEC 10-K Fillings using Llama 3 8b-Chat (from together.ai) for 
     2. It provides insights into the company’s financial health and stability. Companies with a sustainable amount of debt 
        relative to equity are often seen as more stable.
 
+    Please note that for calculating the Debt to Equity ratio for Tesla, the year indicated in the document name is adjusted by 
+    subtracting one. This adjustment is made because the year mentioned in the document name corresponds to the year the filing 
+    was published, not the year of the balance sheet data it contains. For example, if the document is named "2024," the balance 
+    sheet data actually pertains to the year 2023.  
+
 
 ## 2. Sentiment analysis of the company the competitors:
     
