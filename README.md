@@ -34,8 +34,13 @@ Text Analysis of SEC 10-K Fillings using Llama 3 8b-Chat (from together.ai) for 
     sentiment could signal challenges or threats.
 
 ## Tech Stack used for web-app:
-    1. Streamlit
+    1. Streamlit - for web app
     2. Python
+
+    Why Python?
+    Python excels in text analysis with libraries like spaCy, TextBlob, and BeautifulSoup (BS4), which simplify complex natural 
+    language processing tasks such as tokenization, part-of-speech tagging, and sentiment analysis. Its user-friendly syntax 
+    allows for efficient coding and scalability, making it ideal for handling extensive text data in projects of any size.
 
     Why Streamlit?
     Streamlit is designed for Python, making it easy to connect with data tools and add interactive features like sliders and 
