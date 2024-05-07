@@ -4,3 +4,4 @@ plotly
 numpy
 sec_edgar_downloader
 beautifulsoup4
+lxml
