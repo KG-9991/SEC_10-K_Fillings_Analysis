@@ -56,7 +56,7 @@ Text Analysis of SEC 10-K Fillings using Llama 3 8b-Chat (from together.ai) for 
 
 
 Please do note that, that computations for Debt to Equity ratio analysis and Sentiment analysis might take some time as 
-well because the data is huge and process is made to sleep in between while making API calls because of the Rate limiter issue of the API (together.ai). Also, there are constraints on the server like delay and memomy issue (since its a basic and free one), hence computations on server takes more time as compared to the local machine.
+well because the data is huge and process is made to sleep in between while making API calls because of the Rate limiter issue of the API (together.ai). Also, there are constraints on the server like delay and memory issue (since its a basic and free one), hence computations on server takes more time as compared to the local machine.
 
 Please note that multiple runs of sentiment analysis might predict different scores and these scores shouldn't be treated as baseline facts. They are used as supplemental information to gain better insights from the data.
 
